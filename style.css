@@ -1,0 +1,509 @@
+.blockchainstarting{
+    display: flex; 
+     background-color:  rgb(9, 86, 191);
+    position: sticky;
+    height: 48px;
+    width: 100vw;
+    flex-wrap: wrap;
+    color: white;
+   font-weight: 500;
+   font-size: 17px;
+   text-align: center;
+    align-items: center;
+   justify-content: center;  
+} 
+
+
+.style1
+{
+    padding: 30px;
+    background-color: #121d33;
+    font-size: large;
+   
+}
+.style1 ul{
+    list-style: none;
+}
+.style1 li{
+    display:inline;
+    padding:15px 15px;
+}
+.style1 a{
+    color:white;
+    text-decoration: none;
+    
+
+}
+
+/*Blockchain.com*/
+.p2 h4
+{
+    font-size: x-large ;
+    top: auto;
+    position: absolute;
+    right: 75%;
+    text-align: center;
+    display:inline;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+   color: white;
+
+}  
+/*These all are nav bar items*/
+/* wallet */
+.p1a{
+    height: 30px;
+    position: absolute;
+    right: 68%;
+}
+.p1a :hover
+{
+
+background-color: rgba(148, 142, 142, 0.185);
+padding: 10px;
+border-radius: 2px;
+transition-delay:2sec;
+}
+
+/* exchange */
+
+.p1b{
+    height: 30px;
+    position: absolute;
+    right: 61%;
+}
+.p1b :hover
+{
+
+background-color: rgba(148, 142, 142, 0.185);
+padding: 5px;
+border-radius: 2px;
+transition-delay:2sec;
+}
+
+/* expolorer */
+.p1c{
+    height: 30px;
+    position: absolute;
+    right: 55%;
+}
+.p1c :hover
+{
+
+background-color: rgba(148, 142, 142, 0.185);
+padding: 5px;
+border-radius: 2px;
+transition-delay:2sec;
+}
+
+/* institutional */
+.p1d{
+    height: 30px;
+    position: absolute;
+    right: 48%;
+}
+.p1d :hover
+{
+
+background-color: rgba(148, 142, 142, 0.185);
+padding: 5px;
+border-radius: 2px;
+transition-delay:2sec;
+}
+
+/* ... */
+.p1e{
+    height: 30px;
+    position: absolute;
+    right: 45%;
+}
+.p1e :hover
+{
+
+background-color: rgba(148, 142, 142, 0.185);
+padding: 5px;
+border-radius: 2px;
+transition-delay:2sec;
+}
+
+.login
+{
+    position: absolute;
+    left: 77%;
+    bottom: auto;
+    color: white;
+    background-color:#121d33;
+    border:1px solid white;
+    border-radius: 6px;
+    padding:6px;
+    
+    
+
+}
+
+.signup
+{
+    position: absolute;
+    left: 83%;
+    bottom: auto;
+    color: black;
+    background-color: white;
+    border:1px solid black;
+    border-radius: 6px;
+    padding:6px;
+    
+    
+
+}
+body {
+    overflow-x: hidden; /* Hide scrollbars */
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    max-width:100%;
+    width: 100rem;
+    margin: auto;
+  }
+/*This for Palette 1 css*/
+
+.Palette1-container1{
+    background-image: url(https://www.blockchain.com/static/img/home/home-hero-gradient.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    color : white !important; 
+
+}
+
+
+.up{
+    max-width: 70rem;
+    margin: auto;
+    font-size: 2;
+    overflow-x: hidden;
+}
+.paletteup-intr h1{
+    font-size: 3.2rem;
+}
+.paletteup-intr h3{
+    font-size: 1.7rem;
+    font-weight: lighter;
+}
+.paletteup-intr{
+    max-width: 740px;
+    margin: 10rem 0 0 5rem;
+    padding-bottom: 10rem;
+}
+.paletteup-intr button{
+    padding: 18px;
+    font-size: 1.2rem;
+    border-radius: 10px;
+}
+.getstarted{
+    background-color: #0C6CF2;
+    margin-right: 10px;
+    color: white;
+    border-color: #0C6CF2;}
+
+.Login{
+        background-color:white;
+        margin-right: 10px;
+        color: black;
+        border-color:white;}
+
+/* Palatte 1 ends here8*/
+
+/* This is for palette 2*/
+
+.container{
+
+    border-radius: 7%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: -0.5%;
+    padding: 60px 0;
+    max-width: 108%;  
+    height: auto;  
+    left: -15%;
+
+}
+
+.container1{
+    margin: 29px 59px 89px 59px ;
+    border-radius: 7%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: -0.5%;
+    padding: 60px 0;
+    max-width: 108%;  
+    height: auto;  
+    left: -15%;
+
+}
+.details{
+    border:1px solid;
+    background-color: white;
+    border-radius: 12px;
+    padding: 5px 10px;
+    margin-top: 15px;
+}
+.btn{
+    padding: 22px;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    color: white;
+   width: 100px;
+   position: relative;
+   top: 40px;
+}
+/* Palette 2 */
+.container2{
+    background-color: #F7F5FE;
+    color: #7349F2;  
+    padding: 60px 0;
+    max-width: 108%;  
+    height: auto;  
+    left: -15%; 
+    background-repeat: no-repeat ;
+}
+
+.symbol{
+    display: flex;
+    width: 70px;
+    border-radius: 20%;
+
+}
+.wallet{
+    padding: 5px 30px 5px 20px;
+    background-color: #EFECFE;
+
+}
+.box2-grid1{
+    margin: 70px 0 70px 140px;
+    position: relative;
+    left: 30px;
+}
+.box2-grid2 img{
+    width: 60%;
+    margin: 120px 0 120px 150px;
+}
+
+.d2{
+    border-color: #7349F2;
+}
+.bold{
+    font-weight: 550;
+}
+.h1-heads{
+    font-size: 40px;
+}
+.box2-grid2{
+    background-image: url(https://www.blockchain.com/static/img/home/home-wallet-shapes-bg@2x.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    color : white !important;
+
+}
+.btn-w{
+    background-color: #7349F2;
+}
+
+/* Palette 2 ends here
+
+/* Palette 3 starts here*/
+.container3{
+    background-color: #F5FAFE;
+    color: #0C6CF2;
+    padding: 60px 0;
+    max-width: 108%;  
+    height: auto;  
+
+}
+.box3-grid1 img{
+    width: 75%;
+  margin: 50px 0 0 120px;
+}
+.box3-grid1{
+    background-image: url(https://www.blockchain.com/static/img/home/home-exchange-shapes-bg@2x.png);
+    background-repeat: no-repeat;
+    color : white !important; 
+    background-size: 101%;
+    background-position-y: 100px;
+    background-position-x: -10px;
+}
+.box3-grid2{
+    max-width: 500px;
+}
+.ex img{
+    background-color: #4299F7;
+    width: 30%;
+}
+.ex{
+    background-color: #ECF5FE;
+    padding: 5px 50px 5px 10px;
+}
+.btn-e{
+    background-color: #0C6CF2;
+    top: 8%;
+    position: relative;
+
+    
+    
+}
+/* palette 3 ends here*/
+
+/*Palette 4 starts here*/
+.container4{
+    color: #F28B24;
+    background-color: #FFF8F2;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 60px 0;
+    max-width: 108%;  
+    height: auto;  
+    left: -15%;
+}
+.box4-grid2 img{
+    width: 60%;
+    margin: 120px 0 120px 150px;
+}
+.box4-grid2{
+    background-image: url(https://www.blockchain.com/static/img/home/home-explorer-shapes-bg@2x.png);
+    background-repeat: no-repeat;
+    background-size: 101%;
+    background-position-y: 100px;
+    background-position-x: -10px;
+}
+.box4-grid1{
+    margin: 50px 20px 70px 140px;
+}
+.explore{
+    background-color: #FFF2E5;
+    padding: 5px 35px 5px 20px;
+}
+.btn-ex{
+    background-color: #F28B24;
+}
+.d5{
+    background-color: #FFF8F2;
+}
+
+
+/* Palette 5 */
+.container5{
+    background-color: #F0F2F7;
+    color: #121D33;
+    background-image: url(https://www.blockchain.com/static/img/home/home-institutional-shapes-bg@2x.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: right;
+    background-position-y: 100px;
+    padding-bottom: 80px;
+    padding: 60px 0;
+    max-width: 108%;  
+    height: auto;  
+    left: -15%;
+    
+}
+.box5-grid1{
+   
+    margin: auto;
+    padding: 100px 0 100px 110px;
+    line-height: 1.4;
+}
+.ins{
+    background-color: #DFE3EB;
+    padding: 5px 75px 5px 20px;
+}
+
+.btn-i{
+    background-color: #677185;
+}
+
+
+/* Pallette 6 */
+/* box6 */
+.niche{
+    height: 12rem;
+    background-image: url(https://www.blockchain.com/static/img/banner/banner-bg.svg);
+    background-repeat: no-repeat;
+   background-size: cover;
+    background-color: #121D33;
+    color: white;
+}
+
+.niche-flex{
+    display: flex;
+    max-width: 50rem;
+    margin: auto;
+    align-items: center;
+}
+.niche-flex h1{
+    margin-top: 68px;
+}
+.btn-low{
+    background-color: white;
+    color: #0C6CF2;
+    margin: 0 0 15px 20px;
+     padding: 15px 0px;
+     white-space: nowrap;
+     text-overflow: ellipsis;
+     overflow: hidden;
+     display: inherit;
+}
+
+
+/* footer */
+.footer{
+    max-width: 75rem;
+    margin: auto;
+    margin: 7rem auto;
+}
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px 20px 0;
+    line-height: 2.3;
+}
+.footer-top li{
+    list-style: none;
+    text-align: left;
+    color: #656b79;
+}
+.social img{
+    width: 50px;
+
+}
+
+.footer-top ul{
+    position: relative;
+    right: 2.2rem;
+}
+
+
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+
+
+   .last{
+    display: flex;
+    display: inline-block;
+    white-space: nowrap;
+}
+.image1last {
+    width: 35%;
+    height: 35%;
+   position: relative;;
+   bottom:15rem;
+   left: 55rem;
+}
+
+
+   
+
+
+
+
